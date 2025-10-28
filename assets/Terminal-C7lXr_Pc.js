@@ -1,4 +1,4 @@
-import{r as o,u as S,j as c}from"./index-CjoQyPHH.js";function T(){const p=o.useRef(null),i=o.useRef(null),[h,n]=o.useState("text-green-500"),[f,s]=o.useState(`Welcome To My Portfolio Terminal. Dont Panic :)
+import{r as o,u as S,j as c}from"./index-CQ_23WzV.js";function T(){const h=o.useRef(null),i=o.useRef(null),[p,n]=o.useState("text-green-500"),[f,s]=o.useState(`Welcome To My Portfolio Terminal. Dont Panic :)
 Just Type "help" for Available Commands
 
 you@AmirOS:-$ `),[r,_]=o.useState(""),[b,w]=o.useState(!1),{setTabState:y}=S(),l=b?"you@GodOS:-$ ":"you@AmirOS:-$ ",d=e=>{if(e=e.toLowerCase(),e==="help")s(t=>t+r+`
@@ -39,4 +39,4 @@ bash: cd: /${t}: No such file or directory
 `+l)}else if(e.includes("color ")){switch(e.split(" ")[1]){case"white":n("text-white");break;case"green":n("text-green-500");break;case"blue":n("text-blue-500");break;case"yellow":n("text-yellow-500");break;case"pink":n("text-pink-500");break;default:n("text-green-500");break}s(a=>a+r+`
 `+l)}else s(t=>t+e+`
 bash: ${e}: command not found
-`+l)};return o.useEffect(()=>{p.current?.focus()},[]),o.useEffect(()=>{i.current?.scrollTo({top:i.current.scrollHeight})},[f]),c.jsxs("div",{ref:i,className:"pl-4 py-4 bg-slate-900 overflow-y-auto h-[19em]",children:[c.jsx("span",{className:h,style:{whiteSpace:"pre-wrap"},children:f}),c.jsx("input",{ref:p,value:r,onKeyDown:e=>{e.key=="Enter"&&(d(r),_(""))},onInput:e=>_(e.target.value),className:`bg-transparent outline-0 ${h}`})]})}export{T as default};
+`+l)};return o.useEffect(()=>{h.current?.focus()},[]),o.useEffect(()=>{i.current?.scrollTo({top:i.current.scrollHeight})},[f]),c.jsxs("div",{ref:i,className:"pl-4 py-4 bg-slate-900 overflow-y-auto h-[60dvh]",children:[c.jsx("span",{className:p,style:{whiteSpace:"pre-wrap"},children:f}),c.jsx("input",{ref:h,value:r,onKeyDown:e=>{e.key=="Enter"&&(d(r),_(""))},onInput:e=>_(e.target.value),className:`bg-transparent outline-0 ${p}`})]})}export{T as default};
