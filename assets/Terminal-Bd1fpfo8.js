@@ -1,4 +1,4 @@
-import{r as o,u as S,j as c}from"./index-CfyzJxtI.js";function T(){const h=o.useRef(null),i=o.useRef(null),[p,n]=o.useState("text-green-500"),[f,s]=o.useState(`Welcome To My Portfolio Terminal. Dont Panic :)
+import{r as o,u as S,j as c}from"./index-JCTrWXCX.js";function T(){const h=o.useRef(null),i=o.useRef(null),[p,n]=o.useState("text-green-500"),[f,s]=o.useState(`Welcome To My Portfolio Terminal. Dont Panic :)
 Just Type "help" for Available Commands
 
 you@AmirOS:-$ `),[r,_]=o.useState(""),[b,w]=o.useState(!1),{setTabState:y}=S(),l=b?"you@GodOS:-$ ":"you@AmirOS:-$ ",d=e=>{if(e=e.toLowerCase(),e==="help")s(t=>t+r+`
